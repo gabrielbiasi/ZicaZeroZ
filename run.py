@@ -2,18 +2,18 @@ import sys, os, filecmp
 try:
 	choice = int(sys.argv[1])
 	if choice == 1:
-		path_in = 'instances/worst/'
-		path_out = 'instances/worst/'
+		path_in = 'instances/worst'
+		path_out = 'instances/worst'
 	elif choice == 2:
-		path_in = 'instances/best/'
-		path_out = 'instances/best/'
+		path_in = 'instances/best'
+		path_out = 'instances/best'
 	elif choice == 3:
-		path_in = 'instances/media/'
-		path_out = 'instances/media/'
+		path_in = 'instances/media'
+		path_out = 'instances/media'
 
 except:
-	path_in = 'instances/'
-	path_out = 'instances/'
+	path_in = 'instances'
+	path_out = 'instances'
 
 counter = 0
 while True:
